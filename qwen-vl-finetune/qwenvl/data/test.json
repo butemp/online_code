@@ -1,0 +1,420 @@
+{
+    "video_id": "W2xZWTltJ10",
+    "image": [
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0001.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0002.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0003.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0004.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0005.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0006.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0007.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0008.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0009.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0010.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0011.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0012.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0013.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0014.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0015.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0016.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0017.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0018.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0019.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0020.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0021.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0022.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0023.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0024.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0025.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0026.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0027.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0028.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0029.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0030.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0031.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0032.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0033.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0034.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0035.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0036.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0037.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0038.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0039.jpg",
+        "/data/qjw/workdirs/data/youcook2/video_frames_1fps/W2xZWTltJ10/frame_0040.jpg"
+    ],
+    "conversations": [
+        {
+            "from": "human",
+            "value": "Turn the livestream into a coherent story, unfolding in time; continue the narration only when changes in the content occur."
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|response|>\nA close-up shot shows a hand holding a glowing, smooth, translucent sphere with the text \"Guru's Cooking\" elegantly written in shimmering golden font. The warm light from the sphere casts subtle shadows, creating a mysterious and captivating atmosphere, suggesting a thematic connection to culinary arts. The dark background keeps the focus entirely on the glowing object, making it the central point of attention.",
+            "label": 1
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|response|>\nA traditional **Punjabi Chana Masala** is presented in an elegant white bowl, featuring tender chickpeas in a rich, spiced sauce with visible red chili flakes and aromatic spices. Garnished with a lime wedge, onion slice, and a sprinkle of dark spices, the dish offers a vibrant contrast of flavors and textures. The presentation highlights the rustic yet refined appeal of this classic Indian curry.",
+            "label": 1
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|response|>\nThe video demonstrates the initial steps of preparing Punjabi Chana Masala, focusing on soaking dry Kabuli Chana (chickpeas) in water for eight hours. Two white bowls are shown on a dark green surface, with one containing dry chickpeas and the other water, accompanied by a text overlay instructing viewers on the soaking process. The scene transitions to show the chickpeas after soaking, now plump and hydrated in a clear glass bowl, emphasizing the importance of this step for softening the beans before cooking. The setting suggests a kitchen environment, with other kitchen items subtly visible in the background.",
+            "label": 1
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "<|silent|>",
+            "label": 0
+        },
+        {
+            "from": "human",
+            "value": "<|end_of_streaming|>",
+            "label": 1
+        },
+        {
+            "from": "gpt",
+            "value": "The video demonstrates the pressure cooking process for chickpeas (chana), with a focus on adding a pinch of baking soda to the pot along with water or broth. The instructions displayed—\"Pressure Cook Chana's with Pinch of Baking Soda for 3 Whistles\"—highlight this key step, while the transparent bowls showcase the chickpeas and liquid clearly. This follows earlier scenes of soaking the chickpeas, now transitioning to the cooking phase in a clean, organized kitchen setting."
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+  0%|                                                                                               | 0/1280 [00:00<?, ?it/s]/data/envs/qjw/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+                                                                                                                             
+{'loss': 4.2121, 'grad_norm': 87.59632873535156, 'learning_rate': 0.0, 'epoch': 0.0}
+{'loss': 3.9084, 'grad_norm': 83.78031158447266, 'learning_rate': 5.128205128205128e-09, 'epoch': 0.0}
+{'loss': 3.7155, 'grad_norm': 75.55947875976562, 'learning_rate': 1.0256410256410256e-08, 'epoch': 0.0}
+{'loss': 3.5352, 'grad_norm': 66.16938781738281, 'learning_rate': 1.5384615384615385e-08, 'epoch': 0.0}
+{'loss': 3.8036, 'grad_norm': 77.22644805908203, 'learning_rate': 2.0512820512820512e-08, 'epoch': 0.0}
+{'loss': 3.7783, 'grad_norm': 68.4004898071289, 'learning_rate': 2.5641025641025636e-08, 'epoch': 0.0}
+{'loss': 3.8656, 'grad_norm': 77.4905014038086, 'learning_rate': 3.076923076923077e-08, 'epoch': 0.01}
+{'loss': 3.6832, 'grad_norm': 70.89077758789062, 'learning_rate': 3.58974358974359e-08, 'epoch': 0.01}
+{'loss': 3.8131, 'grad_norm': 74.90223693847656, 'learning_rate': 4.1025641025641025e-08, 'epoch': 0.01}
+{'loss': 3.8826, 'grad_norm': 81.80429077148438, 'learning_rate': 4.615384615384615e-08, 'epoch': 0.01}
+{'loss': 3.8685, 'grad_norm': 77.40479278564453, 'learning_rate': 5.128205128205127e-08, 'epoch': 0.01}
+{'loss': 4.0535, 'grad_norm': 81.6957778930664, 'learning_rate': 5.641025641025641e-08, 'epoch': 0.01}
+{'loss': 3.8331, 'grad_norm': 74.04188537597656, 'learning_rate': 6.153846153846154e-08, 'epoch': 0.01}
+{'loss': 3.7686, 'grad_norm': 77.01974487304688, 'learning_rate': 6.666666666666665e-08, 'epoch': 0.01}
+{'loss': 3.7698, 'grad_norm': 77.08350372314453, 'learning_rate': 7.17948717948718e-08, 'epoch': 0.01}
+{'loss': 3.7626, 'grad_norm': 73.71939849853516, 'learning_rate': 7.692307692307692e-08, 'epoch': 0.01}
+{'loss': 3.9203, 'grad_norm': 74.20514678955078, 'learning_rate': 8.205128205128205e-08, 'epoch': 0.01}
+{'loss': 3.8734, 'grad_norm': 76.1096420288086, 'learning_rate': 8.717948717948718e-08, 'epoch': 0.01}
+{'loss': 3.9669, 'grad_norm': 79.07331085205078, 'learning_rate': 9.23076923076923e-08, 'epoch': 0.01}
+{'loss': 3.5475, 'grad_norm': 67.31118774414062, 'learning_rate': 9.743589743589743e-08, 'epoch': 0.02}
+{'loss': 3.8863, 'grad_norm': 82.85304260253906, 'learning_rate': 1.0256410256410255e-07, 'epoch': 0.02}
+{'loss': 3.8997, 'grad_norm': 72.81009674072266, 'learning_rate': 1.0769230769230769e-07, 'epoch': 0.02}
+{'loss': 3.7131, 'grad_norm': 77.1959228515625, 'learning_rate': 1.1282051282051281e-07, 'epoch': 0.02}
+{'loss': 3.7399, 'grad_norm': 75.62029266357422, 'learning_rate': 1.1794871794871794e-07, 'epoch': 0.02}
+{'loss': 3.8518, 'grad_norm': 76.25834655761719, 'learning_rate': 1.2307692307692308e-07, 'epoch': 0.02}
+{'loss': 3.8567, 'grad_norm': 77.87168884277344, 'learning_rate': 1.282051282051282e-07, 'epoch': 0.02}
+{'loss': 3.5886, 'grad_norm': 66.03614044189453, 'learning_rate': 1.333333333333333e-07, 'epoch': 0.02}
+{'loss': 3.9454, 'grad_norm': 81.29741668701172, 'learning_rate': 1.3846153846153846e-07, 'epoch': 0.02}
+{'loss': 3.6948, 'grad_norm': 73.16524505615234, 'learning_rate': 1.435897435897436e-07, 'epoch': 0.02}
+{'loss': 3.7588, 'grad_norm': 76.81080627441406, 'learning_rate': 1.4871794871794872e-07, 'epoch': 0.02}
+{'loss': 3.7365, 'grad_norm': 75.69316101074219, 'learning_rate': 1.5384615384615385e-07, 'epoch': 0.02}
+{'loss': 3.7907, 'grad_norm': 76.29364776611328, 'learning_rate': 1.5897435897435895e-07, 'epoch': 0.03}
+{'loss': 3.8457, 'grad_norm': 77.96456909179688, 'learning_rate': 1.641025641025641e-07, 'epoch': 0.03}
+{'loss': 3.7991, 'grad_norm': 78.36730194091797, 'learning_rate': 1.6923076923076923e-07, 'epoch': 0.03}
+{'loss': 3.956, 'grad_norm': 83.22520446777344, 'learning_rate': 1.7435897435897435e-07, 'epoch': 0.03}
+{'loss': 3.6159, 'grad_norm': 71.69046020507812, 'learning_rate': 1.7948717948717948e-07, 'epoch': 0.03}
+{'loss': 3.6421, 'grad_norm': 68.88785552978516, 'learning_rate': 1.846153846153846e-07, 'epoch': 0.03}
+{'loss': 3.7184, 'grad_norm': 72.52288818359375, 'learning_rate': 1.8974358974358974e-07, 'epoch': 0.03}
+{'loss': 3.7368, 'grad_norm': 74.71540069580078, 'learning_rate': 1.9487179487179486e-07, 'epoch': 0.03}
+{'loss': 3.6896, 'grad_norm': 78.75469207763672, 'learning_rate': 2e-07, 'epoch': 0.03}
+{'loss': 3.3833, 'grad_norm': 60.4951057434082, 'learning_rate': 1.999996795753233e-07, 'epoch': 0.03}
+{'loss': 3.8658, 'grad_norm': 79.70539093017578, 'learning_rate': 1.9999871830334664e-07, 'epoch': 0.03}
+{'loss': 3.7318, 'grad_norm': 74.50389862060547, 'learning_rate': 1.9999711619023032e-07, 'epoch': 0.03}
+{'loss': 3.6874, 'grad_norm': 73.21037292480469, 'learning_rate': 1.9999487324624148e-07, 'epoch': 0.03}
+{'loss': 3.7347, 'grad_norm': 76.19158935546875, 'learning_rate': 1.9999198948575401e-07, 'epoch': 0.04}
+{'loss': 3.5886, 'grad_norm': 73.95683288574219, 'learning_rate': 1.9998846492724847e-07, 'epoch': 0.04}
+{'loss': 3.7064, 'grad_norm': 75.94081115722656, 'learning_rate': 1.99984299593312e-07, 'epoch': 0.04}
+{'loss': 3.3274, 'grad_norm': 62.63672637939453, 'learning_rate': 1.9997949351063806e-07, 'epoch': 0.04}
+{'loss': 3.4979, 'grad_norm': 70.38482666015625, 'learning_rate': 1.9997404671002642e-07, 'epoch': 0.04}
+{'loss': 3.3808, 'grad_norm': 59.68702697753906, 'learning_rate': 1.999679592263829e-07, 'epoch': 0.04}
+  File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 188, in <module>
+    train(attn_implementation="flash_attention_2")
+  File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 174, in train
+    trainer.train()
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 3736, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 3801, in compute_loss
+    outputs = model(**inputs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2054, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+    return inner()
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in inner
+    result = forward_call(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py", line 1757, in forward
+    image_embeds = self.visual(pixel_values, grid_thw=image_grid_thw)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py", line 507, in forward
+    rotary_pos_emb = self.rot_pos_emb(grid_thw)
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py", line 428, in rot_pos_emb
+    hpos_ids = torch.arange(h).unsqueeze(1).expand(-1, w)
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 188, in <module>
+[rank0]:     train(attn_implementation="flash_attention_2")
+[rank0]:   File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 174, in train
+[rank0]:     trainer.train()
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 3736, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 3801, in compute_loss
+[rank0]:     outputs = model(**inputs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2054, in forward
+[rank0]:     loss = self.module(*inputs, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+[rank0]:     return inner()
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in inner
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py", line 1757, in forward
+[rank0]:     image_embeds = self.visual(pixel_values, grid_thw=image_grid_thw)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py", line 507, in forward
+[rank0]:     rotary_pos_emb = self.rot_pos_emb(grid_thw)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py", line 428, in rot_pos_emb
+[rank0]:     hpos_ids = torch.arange(h).unsqueeze(1).expand(-1, w)
+[rank0]: KeyboardInterrupt

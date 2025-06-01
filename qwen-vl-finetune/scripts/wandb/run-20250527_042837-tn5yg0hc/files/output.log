@@ -1,0 +1,68 @@
+  0%|                                                                                                        | 0/480 [00:00<?, ?it/s]/data/envs/qjw/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 42%|███████████████████████████████████████▏                                                      | 200/480 [25:35<35:24,  7.59s/it]/data/envs/qjw/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+{'loss': 3.8033, 'grad_norm': 71.37612915039062, 'learning_rate': 9.333333333333334e-08, 'epoch': 0.05}
+{'loss': 3.8114, 'grad_norm': 75.09767150878906, 'learning_rate': 2e-07, 'epoch': 0.1}
+{'loss': 3.7478, 'grad_norm': 73.28678894042969, 'learning_rate': 1.998539713431832e-07, 'epoch': 0.15}
+{'loss': 3.6964, 'grad_norm': 71.64624786376953, 'learning_rate': 1.9941631186010492e-07, 'epoch': 0.2}
+{'loss': 3.59, 'grad_norm': 68.03707122802734, 'learning_rate': 1.9868829976729442e-07, 'epoch': 0.25}
+{'loss': 3.5234, 'grad_norm': 74.93610382080078, 'learning_rate': 1.976720612773128e-07, 'epoch': 0.3}
+{'loss': 3.1832, 'grad_norm': 59.22230911254883, 'learning_rate': 1.963705643889941e-07, 'epoch': 0.35}
+{'loss': 3.1222, 'grad_norm': 59.09197998046875, 'learning_rate': 1.9478761021918727e-07, 'epoch': 0.4}
+{'loss': 3.0267, 'grad_norm': 55.7489128112793, 'learning_rate': 1.9292782190131675e-07, 'epoch': 0.45}
+{'loss': 2.8906, 'grad_norm': 36.858680725097656, 'learning_rate': 1.90796631083183e-07, 'epoch': 0.5}
+{'loss': 2.8096, 'grad_norm': 40.953338623046875, 'learning_rate': 1.884002620634378e-07, 'epoch': 0.55}
+{'loss': 2.7227, 'grad_norm': 35.0943717956543, 'learning_rate': 1.8574571361306508e-07, 'epoch': 0.6}
+{'loss': 2.6316, 'grad_norm': 33.569026947021484, 'learning_rate': 1.8284073853495805e-07, 'epoch': 0.65}
+{'loss': 2.5634, 'grad_norm': 32.350772857666016, 'learning_rate': 1.796938210212915e-07, 'epoch': 0.7}
+{'loss': 2.4987, 'grad_norm': 30.09347915649414, 'learning_rate': 1.7631415187481816e-07, 'epoch': 0.75}
+{'loss': 2.4534, 'grad_norm': 27.133703231811523, 'learning_rate': 1.7271160166645693e-07, 'epoch': 0.8}
+{'loss': 2.4468, 'grad_norm': 26.61672592163086, 'learning_rate': 1.6889669190756864e-07, 'epoch': 0.85}
+{'loss': 2.4026, 'grad_norm': 25.538707733154297, 'learning_rate': 1.648805643211127e-07, 'epoch': 0.9}
+{'loss': 2.383, 'grad_norm': 24.726917266845703, 'learning_rate': 1.6067494830143012e-07, 'epoch': 0.95}
+{'loss': 2.38, 'grad_norm': 24.620479583740234, 'learning_rate': 1.5629212665768976e-07, 'epoch': 1.0}
+{'loss': 2.3433, 'grad_norm': 25.291072845458984, 'learning_rate': 1.5174489974104572e-07, 'epoch': 1.05}
+{'loss': 2.3075, 'grad_norm': 24.2791748046875, 'learning_rate': 1.4704654806027556e-07, 'epoch': 1.1}
+{'loss': 2.299, 'grad_norm': 24.317049026489258, 'learning_rate': 1.4221079349508318e-07, 'epoch': 1.15}
+{'loss': 2.2931, 'grad_norm': 24.61880111694336, 'learning_rate': 1.3725175922034563e-07, 'epoch': 1.2}
+{'loss': 2.266, 'grad_norm': 23.454769134521484, 'learning_rate': 1.3218392845834786e-07, 'epoch': 1.25}
+  warnings.warn(
+ 83%|██████████████████████████████████████████████████████████████████████████████▎               | 400/480 [53:45<10:07,  7.60s/it]/data/envs/qjw/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+{'loss': 2.2601, 'grad_norm': 24.26124382019043, 'learning_rate': 1.2702210217947287e-07, 'epoch': 1.3}
+{'loss': 2.2428, 'grad_norm': 24.774879455566406, 'learning_rate': 1.2178135587488515e-07, 'epoch': 1.35}
+{'loss': 2.2419, 'grad_norm': 24.100448608398438, 'learning_rate': 1.1647699552745627e-07, 'epoch': 1.4}
+{'loss': 2.2296, 'grad_norm': 24.969087600708008, 'learning_rate': 1.1112451290952237e-07, 'epoch': 1.45}
+{'loss': 2.2134, 'grad_norm': 24.298616409301758, 'learning_rate': 1.0573954033803005e-07, 'epoch': 1.5}
+{'loss': 2.1958, 'grad_norm': 25.93630599975586, 'learning_rate': 1.0033780501921164e-07, 'epoch': 1.55}
+{'loss': 2.1967, 'grad_norm': 25.260473251342773, 'learning_rate': 9.493508311612874e-08, 'epoch': 1.6}
+{'loss': 2.1756, 'grad_norm': 25.5612850189209, 'learning_rate': 8.954715367323466e-08, 'epoch': 1.65}
+{'loss': 2.1808, 'grad_norm': 26.544666290283203, 'learning_rate': 8.418975253252077e-08, 'epoch': 1.7}
+{'loss': 2.1707, 'grad_norm': 26.87497329711914, 'learning_rate': 7.887852637583925e-08, 'epoch': 1.75}
+{'loss': 2.1538, 'grad_norm': 25.989437103271484, 'learning_rate': 7.362898702762432e-08, 'epoch': 1.8}
+{'loss': 2.1538, 'grad_norm': 26.23272705078125, 'learning_rate': 6.845646615147445e-08, 'epoch': 1.85}
+{'loss': 2.1411, 'grad_norm': 26.060213088989258, 'learning_rate': 6.337607047290773e-08, 'epoch': 1.9}
+{'loss': 2.1377, 'grad_norm': 26.329870223999023, 'learning_rate': 5.840263765906489e-08, 'epoch': 1.95}
+{'loss': 2.1357, 'grad_norm': 27.108680725097656, 'learning_rate': 5.355069298421746e-08, 'epoch': 2.0}
+{'loss': 2.1387, 'grad_norm': 27.984451293945312, 'learning_rate': 4.883440690764178e-08, 'epoch': 2.05}
+{'loss': 2.1349, 'grad_norm': 26.53609848022461, 'learning_rate': 4.4267553687756365e-08, 'epoch': 2.1}
+{'loss': 2.1299, 'grad_norm': 26.84280014038086, 'learning_rate': 3.98634711533928e-08, 'epoch': 2.15}
+{'loss': 2.1278, 'grad_norm': 27.243576049804688, 'learning_rate': 3.5635021749691164e-08, 'epoch': 2.2}
+{'loss': 2.1238, 'grad_norm': 27.616649627685547, 'learning_rate': 3.159455497238827e-08, 'epoch': 2.25}
+{'loss': 2.1253, 'grad_norm': 27.948970794677734, 'learning_rate': 2.775387130021214e-08, 'epoch': 2.3}
+{'loss': 2.114, 'grad_norm': 28.526378631591797, 'learning_rate': 2.4124187730720912e-08, 'epoch': 2.35}
+{'loss': 2.1028, 'grad_norm': 27.837797164916992, 'learning_rate': 2.0716105020241072e-08, 'epoch': 2.4}
+{'loss': 2.1151, 'grad_norm': 27.577350616455078, 'learning_rate': 1.753957672358324e-08, 'epoch': 2.45}
+{'loss': 2.1049, 'grad_norm': 28.225509643554688, 'learning_rate': 1.4603880123957446e-08, 'epoch': 2.5}
+  warnings.warn(
+100%|████████████████████████████████████████████████████████████████████████████████████████████| 480/480 [1:09:34<00:00,  8.70s/it]
+{'loss': 2.0951, 'grad_norm': 27.05012321472168, 'learning_rate': 1.1917589137989003e-08, 'epoch': 2.55}
+{'loss': 2.0891, 'grad_norm': 27.83081817626953, 'learning_rate': 9.488549274967872e-09, 'epoch': 2.6}
+{'loss': 2.1147, 'grad_norm': 28.851688385009766, 'learning_rate': 7.3238547234651394e-09, 'epoch': 2.65}
+{'loss': 2.1172, 'grad_norm': 27.562118530273438, 'learning_rate': 5.429827632236283e-09, 'epoch': 2.7}
+{'loss': 2.0999, 'grad_norm': 29.124515533447266, 'learning_rate': 3.811999645923414e-09, 'epoch': 2.75}
+{'loss': 2.0937, 'grad_norm': 27.077098846435547, 'learning_rate': 2.475095749482603e-09, 'epoch': 2.8}
+{'loss': 2.0943, 'grad_norm': 25.982439041137695, 'learning_rate': 1.42302046851962e-09, 'epoch': 2.85}
+{'loss': 2.1059, 'grad_norm': 28.21664810180664, 'learning_rate': 6.588464658374815e-10, 'epoch': 2.9}
+{'loss': 2.117, 'grad_norm': 29.08896827697754, 'learning_rate': 1.8480556749991272e-10, 'epoch': 2.95}
+{'loss': 2.1069, 'grad_norm': 28.32977867126465, 'learning_rate': 2.282244620088747e-12, 'epoch': 3.0}
+{'train_runtime': 4175.9737, 'train_samples_per_second': 3.677, 'train_steps_per_second': 0.115, 'train_loss': 2.437935101985931, 'epoch': 3.0}

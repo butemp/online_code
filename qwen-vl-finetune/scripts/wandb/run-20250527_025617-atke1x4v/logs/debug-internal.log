@@ -1,0 +1,16 @@
+{"time":"2025-05-27T02:56:17.680132229Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/scripts/wandb/run-20250527_025617-atke1x4v/logs/debug-core.log"}
+{"time":"2025-05-27T02:56:18.264037585Z","level":"INFO","msg":"created new stream","id":"atke1x4v"}
+{"time":"2025-05-27T02:56:18.264077984Z","level":"INFO","msg":"stream: started","id":"atke1x4v"}
+{"time":"2025-05-27T02:56:18.264094486Z","level":"INFO","msg":"sender: started","stream_id":"atke1x4v"}
+{"time":"2025-05-27T02:56:18.264095442Z","level":"INFO","msg":"writer: Do: started","stream_id":"atke1x4v"}
+{"time":"2025-05-27T02:56:18.264120798Z","level":"INFO","msg":"handler: started","stream_id":"atke1x4v"}
+{"time":"2025-05-27T02:56:18.615969435Z","level":"INFO","msg":"stream: closing","id":"atke1x4v"}
+{"time":"2025-05-27T02:56:18.889802279Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-27T02:56:18.889895326Z","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /huggingface not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-05-27T02:56:19.231983041Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-27T02:56:19.232057139Z","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /huggingface not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-05-27T02:56:19.233324346Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-27T02:56:19.233357907Z","level":"INFO","msg":"handler: closed","stream_id":"atke1x4v"}
+{"time":"2025-05-27T02:56:19.233364527Z","level":"INFO","msg":"writer: Close: closed","stream_id":"atke1x4v"}
+{"time":"2025-05-27T02:56:19.233421959Z","level":"INFO","msg":"sender: closed","stream_id":"atke1x4v"}
+{"time":"2025-05-27T02:56:19.25345726Z","level":"INFO","msg":"stream: closed","id":"atke1x4v"}

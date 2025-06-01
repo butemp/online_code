@@ -1,0 +1,52 @@
+  0%|                                                                                                        | 0/1280 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 188, in <module>
+    train(attn_implementation="flash_attention_2")
+  File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 172, in train
+    trainer.train(resume_from_checkpoint=True)
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2514, in _inner_training_loop
+    batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 5243, in get_batch_samples
+    batch_samples.append(next(epoch_iterator))
+  File "/data/envs/qjw/lib/python3.10/site-packages/accelerate/data_loader.py", line 566, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1448, in _next_data
+    idx, data = self._get_data()
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1402, in _get_data
+    success, data = self._try_get_data()
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1243, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/data/envs/qjw/lib/python3.10/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/data/envs/qjw/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 188, in <module>
+[rank0]:     train(attn_implementation="flash_attention_2")
+[rank0]:   File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 172, in train
+[rank0]:     trainer.train(resume_from_checkpoint=True)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2514, in _inner_training_loop
+[rank0]:     batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 5243, in get_batch_samples
+[rank0]:     batch_samples.append(next(epoch_iterator))
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/accelerate/data_loader.py", line 566, in __iter__
+[rank0]:     current_batch = next(dataloader_iter)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+[rank0]:     data = self._next_data()
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1448, in _next_data
+[rank0]:     idx, data = self._get_data()
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1402, in _get_data
+[rank0]:     success, data = self._try_get_data()
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1243, in _try_get_data
+[rank0]:     data = self._data_queue.get(timeout=timeout)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/queue.py", line 180, in get
+[rank0]:     self.not_empty.wait(remaining)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/threading.py", line 324, in wait
+[rank0]:     gotit = waiter.acquire(True, timeout)
+[rank0]: KeyboardInterrupt

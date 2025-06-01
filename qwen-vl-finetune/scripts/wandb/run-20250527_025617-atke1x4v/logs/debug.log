@@ -1,0 +1,38 @@
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_setup.py:_flush():70] Configure stats pid to 72405
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_setup.py:_flush():70] Loading settings from /root/.config/wandb/settings
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_setup.py:_flush():70] Loading settings from /data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/scripts/wandb/settings
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/scripts/wandb/run-20250527_025617-atke1x4v/logs/debug.log
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/scripts/wandb/run-20250527_025617-atke1x4v/logs/debug-internal.log
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_init.py:init():852] calling init triggers
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_init.py:init():893] starting backend
+2025-05-27 02:56:17,660 INFO    MainThread:72405 [wandb_init.py:init():897] sending inform_init request
+2025-05-27 02:56:17,675 INFO    MainThread:72405 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-27 02:56:17,675 INFO    MainThread:72405 [wandb_init.py:init():907] backend started and connected
+2025-05-27 02:56:17,677 INFO    MainThread:72405 [wandb_init.py:init():1005] updated telemetry
+2025-05-27 02:56:17,678 INFO    MainThread:72405 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-27 02:56:17,980 WARNING MainThread:72405 [wandb_init.py:init():1681] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/data/envs/qjw/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1677, in init
+    return wi.init(run_settings, run_config, run_printer)
+  File "/data/envs/qjw/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1055, in init
+    result = wait_with_progress(
+  File "/data/envs/qjw/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+  File "/data/envs/qjw/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 70, in wait_all_with_progress
+    return _wait_handles(handle_list, timeout=progress_after)
+  File "/data/envs/qjw/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 110, in _wait_handles
+    results.append(handle.wait_or(timeout=remaining_timeout))
+  File "/data/envs/qjw/lib/python3.10/site-packages/wandb/sdk/mailbox/mailbox_handle.py", line 122, in wait_or
+    return self._fn(self._handle.wait_or(timeout=timeout))
+  File "/data/envs/qjw/lib/python3.10/site-packages/wandb/sdk/mailbox/response_handle.py", line 88, in wait_or
+    if not self._event.wait(timeout=timeout):
+  File "/data/envs/qjw/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/envs/qjw/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2025-05-27 02:56:18,615 INFO    MsgRouterThr:72405 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 0 handles.

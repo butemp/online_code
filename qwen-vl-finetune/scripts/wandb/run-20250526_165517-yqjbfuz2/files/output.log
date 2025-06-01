@@ -1,0 +1,5 @@
+  0%|                                                                                                          | 0/1 [00:00<?, ?it/s]/data/envs/qjw/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [02:53<00:00, 173.04s/it]
+{'loss': 1.7472, 'grad_norm': 20.410837173461914, 'learning_rate': 0.0, 'epoch': 1.0}
+{'train_runtime': 174.7828, 'train_samples_per_second': 0.017, 'train_steps_per_second': 0.006, 'train_loss': 1.747246503829956, 'epoch': 1.0}

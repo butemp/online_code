@@ -1,0 +1,14 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+
+qwen-vl-finetune/demo
+qwen-vl-finetune/output
+qwen-vl-finetune/wandb

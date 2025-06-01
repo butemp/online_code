@@ -1,0 +1,78 @@
+  0%|                                                                                                          | 0/3 [00:00<?, ?it/s]/data/envs/qjw/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+Traceback (most recent call last):
+  File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 179, in <module>
+    train(attn_implementation="flash_attention_2")
+  File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 165, in train
+    trainer.train()
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 3782, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/accelerate/accelerator.py", line 2465, in backward
+    self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/accelerate/utils/deepspeed.py", line 275, in backward
+    self.engine.step()
+  File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2378, in step
+    self._take_model_step(lr_kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2281, in _take_model_step
+    self.optimizer.step()
+  File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 1923, in step
+    self._optimizer_step(i)
+  File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 1829, in _optimizer_step
+    self.optimizer.step()
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 137, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/optimizer.py", line 487, in wrapper
+    out = func(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/optimizer.py", line 91, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/adamw.py", line 220, in step
+    adamw(
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/optimizer.py", line 154, in maybe_fallback
+    return func(*args, **kwargs)
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/adamw.py", line 782, in adamw
+    func(
+  File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/adamw.py", line 606, in _multi_tensor_adamw
+    exp_avg_sq_sqrt = torch._foreach_sqrt(device_exp_avg_sqs)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 11.63 GiB. GPU 0 has a total capacity of 79.25 GiB of which 7.35 GiB is free. Including non-PyTorch memory, this process has 0 bytes memory in use. Of the allocated memory 59.37 GiB is allocated by PyTorch, and 11.71 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 179, in <module>
+[rank0]:     train(attn_implementation="flash_attention_2")
+[rank0]:   File "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py", line 165, in train
+[rank0]:     trainer.train()
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/transformers/trainer.py", line 3782, in training_step
+[rank0]:     self.accelerator.backward(loss, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/accelerate/accelerator.py", line 2465, in backward
+[rank0]:     self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/accelerate/utils/deepspeed.py", line 275, in backward
+[rank0]:     self.engine.step()
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2378, in step
+[rank0]:     self._take_model_step(lr_kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2281, in _take_model_step
+[rank0]:     self.optimizer.step()
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 1923, in step
+[rank0]:     self._optimizer_step(i)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 1829, in _optimizer_step
+[rank0]:     self.optimizer.step()
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 137, in wrapper
+[rank0]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/optimizer.py", line 487, in wrapper
+[rank0]:     out = func(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/optimizer.py", line 91, in _use_grad
+[rank0]:     ret = func(self, *args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/adamw.py", line 220, in step
+[rank0]:     adamw(
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/optimizer.py", line 154, in maybe_fallback
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/adamw.py", line 782, in adamw
+[rank0]:     func(
+[rank0]:   File "/data/envs/qjw/lib/python3.10/site-packages/torch/optim/adamw.py", line 606, in _multi_tensor_adamw
+[rank0]:     exp_avg_sq_sqrt = torch._foreach_sqrt(device_exp_avg_sqs)
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 11.63 GiB. GPU 0 has a total capacity of 79.25 GiB of which 7.35 GiB is free. Including non-PyTorch memory, this process has 0 bytes memory in use. Of the allocated memory 59.37 GiB is allocated by PyTorch, and 11.71 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

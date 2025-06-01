@@ -1,0 +1,139 @@
+{
+  "os": "Linux-6.6.0-28.0.0.34.oe2403.x86_64-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-05-27T04:27:34.167138Z",
+  "args": [
+    "--deepspeed",
+    "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/scripts/zero2.json",
+    "--model_name_or_path",
+    "/data/qjw/ckpt/Qwen/Qwen2.5-VL-3B-Instruct",
+    "--dataset_use",
+    "online",
+    "--data_flatten",
+    "True",
+    "--tune_mm_vision",
+    "False",
+    "--tune_mm_mlp",
+    "True",
+    "--tune_mm_llm",
+    "True",
+    "--bf16",
+    "--output_dir",
+    "./output",
+    "--num_train_epochs",
+    "3",
+    "--per_device_train_batch_size",
+    "2",
+    "--per_device_eval_batch_size",
+    "4",
+    "--gradient_accumulation_steps",
+    "4",
+    "--max_pixels",
+    "50176",
+    "--min_pixels",
+    "784",
+    "--eval_strategy",
+    "no",
+    "--save_strategy",
+    "steps",
+    "--save_steps",
+    "200",
+    "--save_total_limit",
+    "3",
+    "--learning_rate",
+    "2e-7",
+    "--weight_decay",
+    "0",
+    "--warmup_ratio",
+    "0.03",
+    "--max_grad_norm",
+    "1",
+    "--lr_scheduler_type",
+    "cosine",
+    "--logging_steps",
+    "8",
+    "--model_max_length",
+    "8192",
+    "--gradient_checkpointing",
+    "True",
+    "--dataloader_num_workers",
+    "4",
+    "--run_name",
+    "qwen2_5vl-baseline",
+    "--report_to",
+    "wandb"
+  ],
+  "program": "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/qwenvl/train/train_qwen.py",
+  "email": "2635179920@qq.com",
+  "root": "/data/qjw/workdirs/Qwen2.5-VL-main/qwen-vl-finetune/scripts",
+  "host": "172-10-20-25",
+  "executable": "/data/envs/qjw/bin/python",
+  "cpu_count": 56,
+  "cpu_count_logical": 112,
+  "gpu": "NVIDIA A800 80GB PCIe",
+  "gpu_count": 8,
+  "disk": {
+    "/": {
+      "total": "107374182400",
+      "used": "31836217344"
+    }
+  },
+  "memory": {
+    "total": "540122222592"
+  },
+  "cpu": {
+    "count": 56,
+    "countLogical": 112
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.6"
+}
