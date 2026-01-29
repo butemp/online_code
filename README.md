@@ -1017,4 +1017,4 @@ If you find our paper and code useful in your research, please consider giving a
 ## 参考项目
 
 本项目参考了以下项目：
-- **ShellStego**: https://gitee.com/liu-bi0388/ShellStego
+- **MIRBench**: https://github.com/Shelly-coder239/MIRBench
