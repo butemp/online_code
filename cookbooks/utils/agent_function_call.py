@@ -3,6 +3,7 @@ from typing import Union, Tuple, List
 from qwen_agent.tools.base import BaseTool, register_tool
 
 
+
 @register_tool("mobile_use")
 class MobileUse(BaseTool):
     @property
