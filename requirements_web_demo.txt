@@ -12,3 +12,4 @@ av
 # Optional dependency
 # Uncomment the following line if you need flash-attn
 # flash-attn==2.6.1
+
